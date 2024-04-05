@@ -1,5 +1,7 @@
 package view;
 
+import model.Task;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -43,7 +45,9 @@ public class MainFrame extends JFrame {
         btnLettre.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                Task t = new Task(1, titreField.getText(), descriptionField.getText(), echeanceField.getText(), prioriteField.getText());
+                JLabel task = new JLabel(t.toString());
+                contentPane.add(task);
             }
         });
 
