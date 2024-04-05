@@ -45,10 +45,10 @@ J'ai implémenté la possibilité d'ajouter une priorité à la création
 
 ### Possibilité d'évolution
 
-- [ ] Description claire des fonctionnalités potentielles à ajouter dans le futur pour améliorer l'application.
-- [ ] Réflexion sur la modularité et la scalabilité de l'application pour faciliter les évolutions futures.
+- [x] Description claire des fonctionnalités potentielles à ajouter dans le futur pour améliorer l'application.
+- [x] Réflexion sur la modularité et la scalabilité de l'application pour faciliter les évolutions futures.
 
-En soit, il y a beaucoup de possibilité d'évolution. On peut penser à ajouter la modification et la suppression d'une tâche, puis les enregistrer dans un fichier texte ou une base de données. Le code respecte les principes SOLID + MVC, il est facilement améliorable.
+En soit, il y a beaucoup de possibilité d'évolution. On peut penser à ajouter la modification et la suppression d'une tâche, puis les enregistrer dans un fichier texte ou une base de données. Le code respecte les principes SOLID + MVC, il est facilement améliorable. De plus, l'interface graphique est améliorable en la rendant plus ergonomique.
 ## Bonus
 
 ### Implémentation de la sérialisation des tâches
