@@ -13,6 +13,9 @@ import java.util.List;
  * Cette classe étend JFrame et gère l'affichage et l'interaction avec l'utilisateur.
  */
 public class MainFrame extends JFrame {
+    /**
+     * Création de la fenêtre principale pour ajouter une tâche
+     */
     public MainFrame() {
         JFrame fenetrePrincipale = new JFrame("Application");
         fenetrePrincipale.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

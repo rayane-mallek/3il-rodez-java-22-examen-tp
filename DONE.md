@@ -7,10 +7,10 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 ### Ajout d'une tâche
 
 - [x] Formulaire de saisie des détails de la tâche.
-- [ ] Bouton "Ajouter".
+- [x] Bouton "Ajouter".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Manque tests unitaires.
 
 ### Modification d'une tâche
 
@@ -30,7 +30,7 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 ### Visualisation des tâches
 
-- [ ] Affichage des détails des tâches existantes.
+- [x] Affichage des détails des tâches existantes.
 - [ ] Mécanisme de filtrage ou de tri des tâches.
 - [ ] Test unitaire associé.
 
@@ -41,15 +41,14 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 - [x] Possibilité de définir la priorité lors de l'ajout ou de la modification de la tâche.
 - [ ] Test unitaire associé.
 
-Possibilité d'ajouter une priorité à la création
+J'ai implémenté la possibilité d'ajouter une priorité à la création
 
 ### Possibilité d'évolution
 
 - [ ] Description claire des fonctionnalités potentielles à ajouter dans le futur pour améliorer l'application.
 - [ ] Réflexion sur la modularité et la scalabilité de l'application pour faciliter les évolutions futures.
 
-(Explication et justification de ce qui a été fait...)
-
+En soit, il y a beaucoup de possibilité d'évolution. On peut penser à ajouter la modification et la suppression d'une tâche, puis les enregistrer dans un fichier texte ou une base de données. Le code respecte les principes SOLID + MVC, il est facilement améliorable.
 ## Bonus
 
 ### Implémentation de la sérialisation des tâches
@@ -58,4 +57,4 @@ Possibilité d'ajouter une priorité à la création
 - [ ] Chargement des tâches lors de l'ouverture de l'application.
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Sérialisation faite (implémentation de l'interface dans Task)

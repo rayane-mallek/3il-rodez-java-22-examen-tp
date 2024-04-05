@@ -2,6 +2,9 @@ package model;
 
 import java.util.List;
 
+/**
+ * Interface pour le management des tasks
+ */
 public interface TaskManagerInterface {
     /**
      * Ajoute une tâche
