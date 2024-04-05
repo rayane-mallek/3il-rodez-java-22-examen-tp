@@ -40,16 +40,20 @@ public class MainFrame extends JFrame {
         contentPane.add(prioriteField);
         contentPane.add(labelPriorite);
 
+        JLabel taskLabel = new JLabel("");
+        contentPane.add(taskLabel);
+
         JButton btnLettre = new JButton("Soumettre");
         contentPane.add(btnLettre);
         btnLettre.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Task t = new Task(1, titreField.getText(), descriptionField.getText(), echeanceField.getText(), prioriteField.getText());
-                JLabel task = new JLabel(t.toString());
-                contentPane.add(task);
+                Task t = new Task(titreField.getText(), descriptionField.getText(), echeanceField.getText(), prioriteField.getText());
+                taskLabel.setText(t.toString());
             }
         });
+
+
 
         fenetrePrincipale.setContentPane(contentPane);
         fenetrePrincipale.setLocationRelativeTo(null);

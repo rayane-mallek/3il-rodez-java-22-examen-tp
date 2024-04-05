@@ -6,6 +6,7 @@ import java.io.Serializable;
  * Classe Task
  */
 public class Task implements Comparable, Serializable {
+    private static int nextId = 1;
     private int id;
     private String titre;
     private String description;
@@ -15,12 +16,13 @@ public class Task implements Comparable, Serializable {
     /**
      * Constructeur de la classe Task
      */
-    public Task(int id, String titre, String description, String dateEcheance, String priorite) {
+    public Task(String titre, String description, String dateEcheance, String priorite) {
         this.id = id;
         this.titre = titre;
         this.description = description;
         this.dateEcheance = dateEcheance;
         this.priorite = priorite;
+        nextId++;
     }
 
     @Override
